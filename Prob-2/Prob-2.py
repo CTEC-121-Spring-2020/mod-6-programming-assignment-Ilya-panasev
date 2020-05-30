@@ -2,9 +2,17 @@
 #   Programming Assignment 10
 #     Prob-2.py
 
-# <YOUR NAME>
+# Ilya Panasevich
+
 
 def main():
-    # your code here
-
+    file = open('Prob-2/Prob-2-Input.txt','r')
+    data = file.readlines()
+    while(data):
+        print(data)
+        data = file.readlines()
+    
+    while(data):
+        num = data.split()
+        print(num)
 main()    
